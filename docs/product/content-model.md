@@ -24,8 +24,8 @@ Each project record includes:
 
 ### 2025
 
+- OS_learning
 - CLI messenger
 - Telegram logistic bots
 - CLI telegram
 - Console_RPG
-- OS_learning
