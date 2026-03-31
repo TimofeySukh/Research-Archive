@@ -51,6 +51,11 @@ export const projectsByYear = [
         slug: "console-rpg",
         title: "Console_RPG",
         description: "A project page placeholder prepared for future details."
+      },
+      {
+        slug: "os-learning",
+        title: "OS_learning",
+        description: "A project page placeholder prepared for future details."
       }
     ]
   }

@@ -28,3 +28,4 @@ Each project record includes:
 - Telegram logistic bots
 - CLI telegram
 - Console_RPG
+- OS_learning
