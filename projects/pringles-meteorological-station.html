@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pringles meteorological station</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body class="project-page">
+    <main class="project-shell">
+      <p class="eyebrow">Weather node</p>
+      <h1 class="placeholder-title">Pringles meteorological station</h1>
+      <p class="project-lead">
+        I built a meteorological station with temperature prediction powered by a heavily simplified
+        KNN regressor and sun-time estimation powered by a RandomForestRegressor.
+      </p>
+      <p class="project-actions">
+        <a
+          class="project-chip-link"
+          href="https://github.com/TimofeySukh/Solar-Pringles"
+          target="_blank"
+          rel="noreferrer"
+          >Open GitHub repo</a
+        >
+      </p>
+
+      <section class="project-grid">
+        <article class="project-detail-card">
+          <p class="panel-label">Prediction stack</p>
+          <strong>KNN + Random Forest</strong>
+          <p class="project-detail-copy">
+            Temperature forecasting runs on a simplified KNNRegressor, while sunrise and sunset
+            timing are estimated through a RandomForestRegressor.
+          </p>
+        </article>
+        <article class="project-detail-card">
+          <p class="panel-label">Hardware move</p>
+          <strong>Raspberry Pi to ESP32</strong>
+          <p class="project-detail-copy">
+            The migration kept the project useful while making the station much more compact and
+            practical for daily use.
+          </p>
+        </article>
+        <article class="project-detail-card">
+          <p class="panel-label">Live node</p>
+          <strong>datanode.live</strong>
+          <p class="project-detail-copy">
+            You can watch the station working on
+            <a class="inline-link" href="https://datanode.live" target="_blank" rel="noreferrer"
+              >datanode.live</a
+            >.
+          </p>
+        </article>
+        <article class="project-detail-card">
+          <p class="panel-label">What it tracks</p>
+          <strong>Light, temperature, humidity</strong>
+          <p class="project-detail-copy">
+            The station reads local conditions, predicts temperature, and estimates the daily sun
+            cycle from the data it collects.
+          </p>
+        </article>
+      </section>
+
+      <figure class="project-figure">
+        <img
+          src="../assets/images/pringles-station.jpg"
+          alt="The Pringles meteorological station assembled on a windowsill."
+        />
+        <figcaption>This is our station.</figcaption>
+      </figure>
+
+      <a class="back-link" href="../index.html">Back to archive</a>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects Archive</title>
+    <meta
+      name="description"
+      content="A chronological archive of engineering projects with a dark green terminal-inspired interface."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <main>
+        <section class="timeline-section" id="timeline">
+          <div class="section-heading">
+            <p class="eyebrow">Timeline</p>
+            <h2>My. Projects from top to bottom.</h2>
+          </div>
+          <div id="timeline-root" class="timeline" aria-live="polite"></div>
+        </section>
+
+        <section class="summary-grid" aria-label="Archive summary">
+          <article class="summary-card">
+            <p class="summary-label">Years tracked</p>
+            <p class="summary-value" id="year-count">0</p>
+          </article>
+          <article class="summary-card">
+            <p class="summary-label">Projects listed</p>
+            <p class="summary-value" id="project-count">0</p>
+          </article>
+          <article class="summary-card">
+            <p class="summary-label">Latest year</p>
+            <p class="summary-value" id="latest-year">-</p>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="./scripts/main.js"></script>
+  </body>
+</html>
