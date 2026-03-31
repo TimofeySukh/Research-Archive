@@ -11,6 +11,7 @@ The homepage is a static HTML shell populated by JavaScript from a single data m
 - `scripts/projects.js` stores the archive data.
 - `scripts/main.js` renders the timeline and summary metrics.
 - `projects/*.html` provide individual project destinations and can be customized independently.
+- `assets/images/` stores project media used by expanded project pages.
 
 ## Extensibility
 

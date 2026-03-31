@@ -322,6 +322,9 @@ a {
 
 .project-actions {
   margin: 18px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .project-chip-link {

@@ -6,23 +6,90 @@
     <title>Robohand</title>
     <link rel="stylesheet" href="../styles.css" />
   </head>
-  <body class="placeholder-page">
-    <main class="placeholder-shell">
-      <p class="eyebrow">Project page</p>
+  <body class="project-page">
+    <main class="project-shell">
+      <p class="eyebrow">Remote control</p>
       <h1 class="placeholder-title">Robohand</h1>
-      <p class="placeholder-copy">
-        This project is not ready yet, but if you can see this page, I am already working on it.
+      <p class="project-lead">
+        I built a robotic hand that can be controlled remotely through a browser interface. The
+        project was migrated from Arduino Nano to ESP32, which made the whole control stack much
+        more practical for web-based use.
       </p>
-      <section class="placeholder-grid">
-        <article class="placeholder-card">
-          <p class="panel-label">Status</p>
-          <strong>Not ready yet</strong>
+      <p class="project-actions">
+        <a
+          class="project-chip-link"
+          href="https://github.com/TimofeySukh/Robo-Hand"
+          target="_blank"
+          rel="noreferrer"
+          >Open GitHub repo</a
+        >
+        <a
+          class="project-chip-link"
+          href="https://robot.datanode.live"
+          target="_blank"
+          rel="noreferrer"
+          >Open control page</a
+        >
+      </p>
+
+      <section class="project-grid">
+        <article class="project-detail-card">
+          <p class="panel-label">Controller</p>
+          <strong>ESP32 Web Servo Controller</strong>
+          <p class="project-detail-copy">
+            Potentiometer input was removed and replaced with a browser-based control interface for
+            remote operation.
+          </p>
         </article>
-        <article class="placeholder-card">
-          <p class="panel-label">Page type</p>
-          <strong>Placeholder</strong>
+        <article class="project-detail-card">
+          <p class="panel-label">Remote access</p>
+          <strong>robot.datanode.live</strong>
+          <p class="project-detail-copy">
+            You can control the hand through
+            <a class="inline-link" href="https://robot.datanode.live" target="_blank" rel="noreferrer"
+              >robot.datanode.live</a
+            >, but only when I turn the device on.
+          </p>
+        </article>
+        <article class="project-detail-card">
+          <p class="panel-label">Firmware features</p>
+          <strong>4 servos from a browser</strong>
+          <p class="project-detail-copy">
+            The firmware controls four servos, limits the claw range to 20..150, and uses a
+            2-degree deadzone for more stable input handling.
+          </p>
+        </article>
+        <article class="project-detail-card">
+          <p class="panel-label">Servo protection</p>
+          <strong>detach() after inactivity</strong>
+          <p class="project-detail-copy">
+            The system calls <code>detach()</code> after three seconds of inactivity to reduce heat
+            buildup on MG996R servos.
+          </p>
+        </article>
+        <article class="project-detail-card">
+          <p class="panel-label">Wi-Fi modes</p>
+          <strong>STA and AP</strong>
+          <p class="project-detail-copy">
+            Wi-Fi credentials are stored in flash. The controller can either connect to a router or
+            start its own <code>ESP32-Claw-Control</code> access point when needed.
+          </p>
+        </article>
+        <article class="project-detail-card">
+          <p class="panel-label">Firmware file</p>
+          <strong><code>esp32_web_servo_controller.ino</code></strong>
+          <p class="project-detail-copy">
+            The firmware lives in the repository under
+            <code>esp32_web_servo_controller/esp32_web_servo_controller.ino</code>.
+          </p>
         </article>
       </section>
+
+      <figure class="project-figure">
+        <img src="../assets/images/robohand.jpg" alt="The Robohand hardware setup." />
+        <figcaption>This is our robohand.</figcaption>
+      </figure>
+
       <a class="back-link" href="../index.html">Back to archive</a>
     </main>
   </body>

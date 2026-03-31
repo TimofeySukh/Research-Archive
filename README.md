@@ -1,6 +1,6 @@
 # Projects Website
 
-A static project archive with summary cards, a vertical timeline, year-grouped entries, and dedicated project pages that can evolve from placeholders into full writeups with links and media.
+A static project archive with summary cards, a vertical timeline, year-grouped entries, and dedicated project pages that can evolve from placeholders into full writeups with links, media, and technical notes.
 
 ## Structure
 
