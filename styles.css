@@ -129,6 +129,19 @@ a {
     border-color 160ms ease;
 }
 
+.page-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+
+.page-topbar .back-link {
+  margin-top: 0;
+  flex-shrink: 0;
+}
+
 .hero-link:hover,
 .back-link:hover,
 .project-link:hover {
@@ -431,6 +444,11 @@ a {
   .project-grid,
   .summary-grid {
     grid-template-columns: 1fr;
+  }
+
+  .page-topbar {
+    align-items: flex-start;
+    flex-direction: column;
   }
 
   .timeline::before,
