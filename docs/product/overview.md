@@ -14,4 +14,5 @@ This repository contains a static website for presenting projects in a verticall
 - Expanded project pages can also capture the reason a tool was built when that context matters.
 - Expanded project pages may also describe abandoned or imperfect projects honestly instead of polishing them.
 - Expanded project pages may group multiple related repositories when one archive entry represents a client work set.
+- Expanded project pages may represent active research branches rather than polished product releases.
 - The structure should remain simple to extend when a new year such as 2027 is added later.
