@@ -11,4 +11,5 @@ This repository contains a static website for presenting projects in a verticall
 - Project pages can either stay as placeholders or be expanded into full project writeups with images, links, and external references.
 - Project pages keep the back-navigation near the top for faster movement through the archive.
 - Expanded project pages can highlight stack details, protocol choices, and implementation notes.
+- Expanded project pages can also capture the reason a tool was built when that context matters.
 - The structure should remain simple to extend when a new year such as 2027 is added later.
