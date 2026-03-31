@@ -17,6 +17,14 @@ A static project archive with summary cards, a vertical timeline, year-grouped e
 
 Open `index.html` directly in a browser, or serve the directory with any static file server.
 
+## GitHub Pages deployment
+
+This repository includes a GitHub Actions workflow at `.github/workflows/deploy-pages.yml`.
+
+- Every push to `main` deploys the static site to GitHub Pages.
+- The same deployment can also be started manually from the Actions tab with `workflow_dispatch`.
+- In the repository settings, set `Pages -> Build and deployment -> Source` to `GitHub Actions` once if it is not enabled yet.
+
 ## Content updates
 
 Project years, titles, ordering, and entries are managed in `scripts/projects.js`. Add a new year object or append a new project to an existing year to update the archive.

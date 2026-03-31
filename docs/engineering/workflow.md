@@ -7,6 +7,12 @@
 - Commit only when explicitly requested.
 - Never push to GitHub without direct user approval.
 
+## Deployment
+
+- GitHub Pages deployment is handled by `.github/workflows/deploy-pages.yml`.
+- The workflow runs on pushes to `main` and can also be started manually.
+- The repository should use `GitHub Actions` as the Pages source in repository settings.
+
 ## Future expansion
 
 To add a new year:
