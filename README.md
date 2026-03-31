@@ -1,9 +1,7 @@
 # Projects Website
 
 Welcome to the DataNode Central Archive.
-This is a static portfolio and project timeline maintained by a Data Analyst and Edge Computing enthusiast based in Copenhagen. It serves as a gateway to my physical IoT nodes, ML experiments, and data pipelines, including the live Pringles Meteorological Station at `weather.datanode.live`.
-
-A static project archive with summary cards, a vertical timeline, year-grouped entries, and dedicated project pages that can evolve from placeholders into full writeups with links, media, and technical notes.
+This is a static portfolio and project timeline maintained by a Data Analyst and Edge Computing enthusiast based in Copenhagen. It serves as a gateway to my physical IoT nodes, ML experiments, and data pipelines, including the live Pringles Meteorological Station at [datanode.live](https://datanode.live).
 
 ## Structure
 
